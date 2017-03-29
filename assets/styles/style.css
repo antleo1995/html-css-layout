@@ -10,8 +10,19 @@ p {
   font-family: Helvetica;
 }
 
-.half {
+.banner {
+ width: 100%;
 }
 
-.full{
+.quarter{
+  width: 45%;
+  float: right;
+}
+.quarter:nth-child(3){
+  background-color: blue;
+
+}
+.footer{
+  clear: both;
+  width: 100%;
 }
